@@ -160,6 +160,7 @@ body {
 	/*background-color: red;*/
 	margin-right: 10px;
 	margin-bottom: 60px;
+	margin-left: 0px;
 }
 .image__hero {
 	padding-left: 140px;
@@ -229,11 +230,23 @@ body {
 	margin-top: -522px;
 	max-width: 95%;
 	/*background-color: red;*/
-
 }
 .image__foliomagazine {
 	margin-left: -537px;
 	margin-top: 87px;
+}
+/*contact page*/
+.paragraph__contact {
+margin-left: 140px;
+margin-top: 20px;
+
+}
+.paragraph__contact a {
+	text-decoration: none;
+	color: inherit;
+}
+.paragraph__contact a:hover {
+	opacity: 0.8;
 }
 .icon {
 	display: block;
@@ -270,25 +283,34 @@ body {
 		margin-right: 20px;
 		display: inline-block;
 	}
+	.nav ul li ul li {
+		display: none;
+	}
 	.arrow {
 		display: none;
 	}
 	.paragraph {
 		position: relative;
-		top: 0;
+		top: -9;
 		left: 50;
 		width: 275;
 		margin-bottom: 70px;
 		margin-right: 0px;
+		margin-top: 155px;
 	}
 	.paragraph__sub {
 		position: relative;
 		width: 280;
 		margin-bottom: 70px;
+		margin-top: -10px;
 		margin-left: 50px;
 		padding-top: 0;
-		z-index: 0;
 		overflow: hidden;
+		z-index: -1;
+	}
+	.paragraph__contact {
+		margin-left: 50px;
+		margin-top: -50px;
 	}
 	.image {
 		margin-left: 25px;
@@ -340,13 +362,12 @@ body {
 	margin-top: 0px;
 	}
 	.projects__menu {
-		margin-left: -200px;
+		margin-left: 50px;
 	}
 	.contact__gif {
 		margin-left: 70px;
-		margin-top: 0px;
+		margin-top: 70px;
 		margin-bottom: 100px;
-		width: 50%;
 	}
 	.footer {
 		margin-left: -90px;
@@ -354,7 +375,7 @@ body {
 }
 @media(max-width: 500px){
 	.projects__menu {
-		margin-left: -198px;
+		margin-left: 50px;
 	}
 	.projects__menu a {
 		margin-bottom: 50px;
